@@ -147,7 +147,7 @@ const contentCode = `<!-- Content.svelte -->
 </div>
 		{/if}
 	<div class="button-container">
-		<button on:click={() => goto('/composition')}>Next Slide</button>
+		<button on:click={() => goto('/async')}>Next Slide</button>
 		{#if !visibleElements.includes(2)}
 			<center><button style="width: 100px;" on:click={showNextElement}>Show</button></center>
 		{/if}

@@ -31,3 +31,12 @@ X
 (src/routes/composition/Navigation.svelte,8/2/8230be51e7b4d44cdf17f0d0ca18e652ce2daeaf
 U
 %src/routes/composition/Content.svelte,4/9/4945323f2d1d0be85fde04a15c999f7a11f74f91
+M
+src/routes/async/+page.svelte,a/4/a4914fb5874ca6bde8c75eafbd3699fc1a990924
+4
+.env,3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+T
+$src/routes/conditionals/+page.svelte,b/8/b816d357ea3f678b3f7a74cd6564d45c81146409
