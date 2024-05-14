@@ -17,8 +17,7 @@
 		}
 	}
 
-	const codeToHighlight = `
-\<script>
+	const codeToHighlight = `\<script>
 let visibleElements = [];
 function showNextElement() {
 	if (visibleElements.length < 3) {
