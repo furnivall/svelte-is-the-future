@@ -65,9 +65,10 @@
 			<li class="bullet">StackOverflow - <span class="highlight">Most Admired framework</span> (2023 developer survey)</li>
 			<li class="bullet">State of JS 2020 awards - <span class="highlight">Most Satisfying for developers</span></li>
 		</ul>
-		This talk focuses on what it brings to the table for users of the HMCTS Node/Express stack.<br><br>
+		This talk focuses on what it brings to the table for users of the HMCTS Node/Express stack.<br>
+		I've written all of this presentation in Svelte/SvelteKit while messing around with it.<br><br>
 		<i><span class="highlight">Important Caveat:</span> I am not a Svelte expert.<br>
-			I've played around with it a lot, but there are lots of things I don't know.</i>
+			I've played around with it a lot, but there are lots of things I don't know.<br>I am also spectacularly poor at design.</i>
 	</div>
 	<div class="button-container">
 		<button on:click={() => goto('/history')}>Next Slide</button>

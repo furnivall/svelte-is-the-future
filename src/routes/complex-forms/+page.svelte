@@ -211,7 +211,7 @@ export let onNextStep;   // Event to signal moving to the next form step
 
 	</div>
 	<div class="button-container">
-		<button on:click={() => goto('/complex-forms')}>Next Slide</button>
+		<button on:click={() => goto('/final-page')}>Next Slide</button>
 		<button on:click={showNextElement}>Show</button>
 		<button on:click={hideNextElement}>Hide</button>
 		<button on:click={() => goto('/forms')}>Prev Slide</button>
