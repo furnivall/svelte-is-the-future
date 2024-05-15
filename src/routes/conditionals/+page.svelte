@@ -33,13 +33,13 @@ function hideNextElement() {
 <button on:click={showNextElement}>Show</button>
 <button on:click={hideNextElement}>Hide</button>
 {#if visibleElements.includes(0)}
-  <p transition:fade>First element is now visible!</p>
+  <p transition:fly={{ y: 200, duration: 500 }}>First element is now visible!</p>
 {/if}
 {#if visibleElements.includes(1)}
-  <p transition:fade>Second element is now visible!</p>
+  <p transition:fly={{ y: 200, duration: 500 }}>Second element is now visible!</p>
 {/if}
 {#if visibleElements.includes(2)}
-  <p transition:fade>Third element is now visible!</p>
+  <p transition:fly={{ y: 200, duration: 500 }}>Third element is now visible!</p>
 {/if}
 `;
 </script>
@@ -62,7 +62,7 @@ function hideNextElement() {
 </svelte:head>
 
 <div class="slide">
-	<div class="header">Conditional Rendering with &lbrace;#if ...} Blocks in Svelte</div>
+	<div class="header">Conditional Rendering with #if Blocks in Svelte</div>
 
 		<div class="content">
 			<div class="codeContainer">
@@ -86,7 +86,7 @@ function hideNextElement() {
 		</div>
 
 		<div class="button-container">
-			<button on:click={() => goto('/next-slide')}>Next Slide</button>
-			<button on:click={() => goto('/prev-slide')}>Prev Slide</button>
+			<button on:click={() => goto('/forms')}>Next Slide</button>
+			<button on:click={() => goto('/async')}>Prev Slide</button>
 		</div>
 </div>

@@ -29,7 +29,7 @@
             <li class="bullet"><span class="highlight">Syntax:</span> Simple, concise, and elegant, making it easy to learn and read.</li>
             <li class="bullet"><span class="highlight">Reactivity:</span> Fine-grained and straightforward without boilerplate code.</li>
             <li class="bullet"><span class="highlight">Development Speed:</span> Allows for rapid application development.</li>
-            <li class="bullet"><span class="highlight">Integration</span>: Seamlessly integrates with existing projects, supporting incremental adoption.</li>
+            <li class="bullet"><span class="highlight">Integration</span>: Seamlessly integrates with existing projects (via npm), supporting incremental adoption.</li>
             <li class="bullet"><span class="highlight">A11y by default</span>: Automatically generates accessible HTML and provides warnings during development for common accessibility issues.</li>
         </ul>
     </div>

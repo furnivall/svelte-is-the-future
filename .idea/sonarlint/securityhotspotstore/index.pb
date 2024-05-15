@@ -7,8 +7,6 @@ Y
 )src/routes/headline-features/+page.svelte,f/5/f501d0b558132dc7dbb66292829075579e5c0d40
 [
 +src/routes/component-structure/+page.svelte,0/0/00f607147b1a054bbad32f4426e2b2de84d40d69
-V
-&src/routes/component-structure/code.js,5/5/55677026defca191e24604b46e6d35e2c9956614
 I
 src/routes/+layout.svelte,5/7/57bd45b2d1884d7c824dd9391c6e95fe5ea8b351
 X
@@ -17,8 +15,6 @@ S
 #src/routes/transitions/+page.svelte,5/6/5628e7b86128e856ffad4edc8751e2cc3bc0edc4
 O
 src/routes/actions/+page.svelte,d/6/d69e0a5259f0a6063a0f442fda7c0a14b3030f0c
-R
-"src/routes/actions/mirrorAction.js,b/f/bf64aaeb8ba415f039eb97ecba4dd5a318331636
 <
 package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
 M
@@ -40,3 +36,17 @@ M
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 T
 $src/routes/conditionals/+page.svelte,b/8/b816d357ea3f678b3f7a74cd6564d45c81146409
+M
+src/routes/intro/+page.svelte,6/b/6ba1dd6354b3daafc8d59482aab462f7a62ade3a
+M
+src/routes/forms/+page.svelte,5/f/5f5fc553953850b8258441fbe2eec827356b4d4e
+U
+%src/routes/complex-forms/+page.svelte,9/e/9e98accbfad567b24cd222513f04d269a3847966
+Q
+!src/routes/complex-forms/store.js,1/4/14e2c184b88d5fe57e8168025848ec289166710e
+\
+,src/routes/complex-forms/personalInfo.svelte,9/7/97a44dfcf7a940a416be16ac3f25b13ec2375a0b
+W
+'src/routes/complex-forms/jobInfo.svelte,d/3/d313431933e2640afe4aec290746051e7094719d
+W
+'src/routes/complex-forms/confirm.svelte,9/a/9a3caaf92dcf2158ecc8d470e850209af793d4ea

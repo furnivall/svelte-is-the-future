@@ -1,45 +1,32 @@
 <script>
-    import { fade } from 'svelte/transition';
-    import { writable } from 'svelte/store';
     import { goto } from '$app/navigation';
-
-    let title = "Introduction to Svelte";
-    const currentPage = writable(0);  // Store to manage current page index
-
-    // Function to navigate to the next page
-    function nextPage() {
-        currentPage.update(n => n + 1);
-    }
 </script>
 
 <style>
-    /* CSS styling for the slide with a green on black theme */
     .slide {
-        font-family: 'Arial', sans-serif;
-        padding: 40px;
-        color: #00ff66; /* Bright green text */
-        background-color: #000; /* Black background */
-        border: 2px solid #00ff66; /* Green border */
+        background-image: url('bg.webp');
+        background-size: cover; /* adjusts the image to cover the entire div */
+        background-position: center; /* centers the image */
+        background-repeat: no-repeat; /* prevents the image from repeating */
+        display: flex;
+        justify-content: space-between; /* creates space between blurb and button */
+        align-items: center; /* vertically centers the content */
+        padding: 20px; /* adds padding to the slide */
+        position: relative
+    }
+
+    .blurb-box {
+        background-color: rgba(255, 255, 255, 0.8); /* white background with transparency */
+        border: 2px solid #000000; /* black border */
+        padding: 10px;
         border-radius: 10px;
-        max-width: 800px;
-        margin: auto;
+        color: black;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* adds a shadow for better visibility */
+        position: absolute;
+        bottom: 20px; /* adjust as needed for spacing from bottom */
+        right: 20px; /* adjust as needed for spacing from right */
     }
-    .header {
-        font-size: 28px;
-        margin-bottom: 20px;
-        color: #00FFFF;
-    }
-    .content {
-        font-size: 18px;
-        line-height: 1.6;
-    }
-    .bullet {
-        margin-left: 20px;
-    }
-    .highlight {
-        color: #00FFFF; /* Bright cyan for highlighting */
-        font-weight: bold;
-    }
+
     button {
         background-color: #00FFFF; /* Cyan background for the button */
         color: #000000; /* Black text for readability */
@@ -49,27 +36,27 @@
         cursor: pointer;
         border-radius: 5px;
         margin-top: 20px;
+        position: absolute;
+        bottom: 20px; /* adjust as needed for spacing from bottom */
+        left: 20px; /* adjus
     }
+
     button:hover {
         background-color: #00dddd; /* Slightly darker cyan on hover */
     }
+
+    .button-container {
+        text-align: center;
+    }
 </style>
 
-<div class="slide" in:fade={{ duration: 600 }}>
-    <div class="header">{title}</div>
-    <div class="content">
-        Svelte is a web framework (similar to NodeJS, React, Angular etc).<br>
-        It has historically been <span class="highlight">extremely popular</span> with developers:
-        <ul>
-            <li class="bullet">StackOverflow - <span class="highlight">Most Loved framework</span> (2021/2022 developer surveys)</li>
-            <li class="bullet">StackOverflow - <span class="highlight">Most Admired framework</span> (2023 developer survey)</li>
-            <li class="bullet">State of JS 2020 awards - <span class="highlight">Most Satisfying for developers</span></li>
-        </ul>
-        This talk focuses on what it brings to the table for users of the HMCTS Node/Express stack.<br><br>
-        <i><span class="highlight">Important Caveat:</span> I am not a Svelte expert.<br>
-        I've played around with it a lot, but there are lots of things I don't know.</i>
+<div class="slide">
+    <div class="blurb-box">
+        <p>Danny Furnivall</p>
+        <p><a href="mailto://danny.furnivall@justice.gov.uk">danny.furnivall@justice.gov.uk</a></p>
+        <p>Code available on <a href="https://github.com/furnivall/svelte-is-the-future">Github</a></p>
     </div>
     <div class="button-container">
-    <button on:click={() => goto('/history')}>Next Slide</button>
+        <button on:click={() => goto('/intro')}>Next Slide</button>
     </div>
 </div>

@@ -54,6 +54,6 @@
     </div>
     <div class="button-container">
     <button on:click={() => goto('/headline-features')}>Next Slide</button>
-    <button on:click={() => goto('/')}>Prev Slide</button>
+    <button on:click={() => goto('/intro')}>Prev Slide</button>
         </div>
 </div>
