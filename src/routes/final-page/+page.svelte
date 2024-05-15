@@ -25,6 +25,8 @@
 	<div class="content">
 		<p>That's about all I've got so far.</p>
 		<p>I've really enjoyed playing with Svelte (you can probably tell).</p>
+		<p>I have barely scratched the surface of the features of Svelte - there's a lot more to see.</p>
+		<p>There's an excellent tutorial available at <a href="learn.svelte.dev">learn.svelte.dev</a> which is what I used to learn.</p>
 		<p>While writing this, I've attempted to compare my examples with React & Angular equivalents - generally speaking, Svelte brings much less complexity, less code and probably performs faster.</p>
 		<ul>
 			<li class="bullet">Code available at <a href="https://github.com/furnivall/svelte-is-the-future">github.com/furnivall/svelte-is-the-future</a> </li>
