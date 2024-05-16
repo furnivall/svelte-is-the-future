@@ -52,3 +52,5 @@ W
 'src/routes/complex-forms/confirm.svelte,9/a/9a3caaf92dcf2158ecc8d470e850209af793d4ea
 R
 "src/routes/final-page/+page.svelte,6/d/6d15a0ff122258a36865a383ebf1612a24251213
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
