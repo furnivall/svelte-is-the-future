@@ -111,9 +111,9 @@ export let onNextStep;   // Event to signal moving to the next form step
 
 	const fifthCodeBlock = `\<script>
  // imports and initialisations omitted
-  // Functions for navigating back and forth
+  // Functions for navigating back and forth (step is an int)
   function nextStep() {
-    step++; // validation could be applied here (step is an int)
+    step++; // validation could be applied here
   }
   function previousStep() {
     step--;

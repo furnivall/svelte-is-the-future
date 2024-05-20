@@ -45,7 +45,7 @@ color: purple;
 <div class="slide">
     <div class="header">Structure of a Svelte Component</div>
     <div class="content">
-        Svelte components combine javascript, css, and html within a single file:
+        Svelte components combine javascript, css, and html within a single file.<br>Svelte files usually have a .svelte extension.
         <HighlightSvelte {code} />
     </div>
     <div class="button-container">

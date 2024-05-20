@@ -52,9 +52,10 @@
 
 <div class="slide">
     <div class="blurb-box">
-        <p>Danny Furnivall</p>
-        <p><a href="mailto://danny.furnivall@justice.gov.uk">danny.furnivall@justice.gov.uk</a></p>
-        <p>Code available on <a href="https://github.com/furnivall/svelte-is-the-future">Github</a></p>
+        <p>Danny Furnivall (<a href="mailto://danny.furnivall@justice.gov.uk">danny.furnivall@justice.gov.uk</a>)</p>
+        <p>Presented at the HMCTS Engineering Catchup on 16th May 2024</p>
+        <p>Code available at <a href="https://github.com/furnivall/svelte-is-the-future">https://github.com/furnivall/svelte-is-the-future</a></p>
+
     </div>
     <div class="button-container">
         <button on:click={() => goto('/intro')}>Next Slide</button>

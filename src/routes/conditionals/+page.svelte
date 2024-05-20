@@ -33,13 +33,13 @@ function hideNextElement() {
 <button on:click={showNextElement}>Show</button>
 <button on:click={hideNextElement}>Hide</button>
 {#if visibleElements.includes(0)}
-  <p transition:fly={{ y: 200, duration: 500 }}>First element is now visible!</p>
+ <p transition:fly={{ y: 200, duration: 500 }}>First element is now visible!</p>
 {/if}
 {#if visibleElements.includes(1)}
-  <p transition:fly={{ y: 200, duration: 500 }}>Second element is now visible!</p>
+ <p transition:fly={{ y: 200, duration: 500 }}>Second element is now visible!</p>
 {/if}
 {#if visibleElements.includes(2)}
-  <p transition:fly={{ y: 200, duration: 500 }}>Third element is now visible!</p>
+ <p transition:fly={{ y: 200, duration: 500 }}>Third element is now visible!</p>
 {/if}
 `;
 </script>
@@ -66,7 +66,7 @@ function hideNextElement() {
 
 		<div class="content">
 			<div class="codeContainer">
-				<HighlightSvelte code={codeToHighlight} style="font-size: 10px;" />
+				<HighlightSvelte code={codeToHighlight} style="font-size: 9px;" />
 			</div>
 
 			<div class="app">

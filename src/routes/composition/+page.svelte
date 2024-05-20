@@ -89,7 +89,7 @@ const contentCode = `<!-- Content.svelte -->
 	<div class="header">Svelte Component Composition: Building Blocks of Your UI</div>
 	{#if !visibleElements.includes(0)}
 		We can easily build and reuse components via HTML element syntax. <br>This means we can call components from other files and include them within the page trivially.
-
+		<p>Note: Svelte prefers <span class="highlight">composition</span> over <span class="highlight">inheritance</span> for generating reusable code.<br>This approach provides simplicity, flexibility and loose coupling.</p>
 	{/if}
 
 

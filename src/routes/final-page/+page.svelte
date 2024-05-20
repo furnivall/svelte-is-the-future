@@ -23,12 +23,11 @@
 <div class="slide" in:fade={{ duration: 600 }}>
 	<div class="header">{title}</div>
 	<div class="content">
-		<p>That's about all I've got so far.</p>
-		<p>I've really enjoyed playing with Svelte (you can probably tell).</p>
-		<p>I have barely scratched the surface of the features of Svelte - there's a lot more to see.</p>
-		<p>There's an excellent tutorial available at <a href="learn.svelte.dev">learn.svelte.dev</a> which is what I used to learn.</p>
-		<p>While writing this, I've attempted to compare my examples with React & Angular equivalents - generally speaking, Svelte brings much less complexity, less code and probably performs faster.</p>
+		<p>That's about all I've got so far. I've really enjoyed playing with Svelte (you can probably tell).</p>
+		<p>I have barely scratched the surface of the features of Svelte - there's a lot more to see, particularly in SvelteKit. There's an excellent tutorial available at <a href="learn.svelte.dev">learn.svelte.dev</a> which is what I used to learn everything here.</p>
+		<p>While writing this, I've attempted to compare my examples with React & Angular equivalents. Generally speaking, Svelte brings much less complexity, less code, less external dependencies and likely performs faster.</p>
 		<ul>
+			<li class="bullet">If there's any time, I can show SvelteKit's routing etc</li>
 			<li class="bullet">Code available at <a href="https://github.com/furnivall/svelte-is-the-future">github.com/furnivall/svelte-is-the-future</a> </li>
 			<li class="bullet">Any questions?</li>
 			<li class="bullet">Grab me on Slack: <span class="highlight">@danny</span></li>
